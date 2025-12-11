@@ -64,10 +64,10 @@
 </div>
 <div class="flex flex-wrap gap-4 justify-center @[864px]:justify-start">
 <button class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-medium leading-normal tracking-wide shadow-lg shadow-primary/30 transition-all hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/40 focus:outline-none focus:ring-4 focus:ring-primary/50">
-<span class="truncate">View Projects</span>
+<span class="truncate"><a href="{{route('project')}}">View Projects</a></span>
 </button>
 <button class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-transparent text-primary text-base font-medium leading-normal tracking-wide border-2 border-primary transition-all hover:bg-primary/10 focus:outline-none focus:ring-4 focus:ring-primary/50">
-<span class="truncate">Hire Me</span>
+<span class="truncate"><a href="{{route('contact')}}">Hire Me</a></span>
 </button>
 </div>
 </div>

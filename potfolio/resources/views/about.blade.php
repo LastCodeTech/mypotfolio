@@ -41,18 +41,18 @@
     </style>
 <style>
     body {
-      min-height: max(884px, 100dvh);
+      /* min-height: max(884px, 100dvh); */
     }
   </style>
   </head>
 <body class="bg-background-light dark:bg-background-dark">
-<div class="relative flex bg-red-700 min-h-screen w-full flex-col font-display group/design-root" style="padding-bottom:0px;">
+<div class="relative flex  min-h-screen w-full flex-col font-display group/design-root" style="padding-bottom:0px;">
 <!-- TopAppBar: Used as a header for the page title -->
 <div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
 <h2 class="text-text-light dark:text-text-dark text-xl font-bold leading-tight tracking-[-0.015em] flex-1">About Me</h2>
 </div>
-<div class="p-4">
-<div class="bg-white dark:bg-slate-900/70 p-6 rounded-xl shadow-sm">
+<div class="p-4 ">
+<div class="bg-white pb-20 mb-10 dark:bg-slate-900/70 p-6 rounded-xl shadow-sm ">
 <!-- ProfileHeader -->
 <div class="flex w-full flex-col gap-4 items-center mb-6">
 <div class="flex gap-4 flex-col items-center">
@@ -95,7 +95,7 @@
 <!-- SectionHeader: Backend Skills -->
 <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] pb-3 pt-4 text-center">Backend &amp; Database Skills</h3>
 <!-- Chips: Backend Skills -->
-<div class="flex gap-3 flex-wrap justify-center">
+<div class="flex gap-3 flex-wrap justify-center mb-7 md:mb-0">
 <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary/10 dark:bg-primary/20 pl-4 pr-4">
 <p class="text-primary dark:text-sky-300 text-sm font-medium leading-normal">PHP</p>
 </div>

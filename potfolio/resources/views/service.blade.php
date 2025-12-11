@@ -37,7 +37,7 @@
     </style>
 <style>
     body {
-      min-height: max(884px, 100dvh);
+      /* min-height: max(884px, 100dvh); */
     }
   </style>
   </head>
@@ -54,13 +54,13 @@
 <!-- Body Text -->
 <p class="text-[#1E293B] text-base font-normal leading-normal pb-6 pt-1 px-4">Here's a breakdown of what I can do for you.</p>
 <!-- Services Grid -->
-<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 mb-20">
 <!-- Website Design Card -->
 <div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
 <span class="material-symbols-outlined text-[#3B82F6]">design_services</span>
 <div class="flex flex-col gap-1">
 <h2 class="text-white text-base font-bold leading-tight">Website Design</h2>
-<p class="text-white/80 text-sm font-normal leading-normal">Creating visually appealing and user-friendly website interfaces.</p>
+<p class="text-white/80 text-sm font-normal leading-normal">I create visually appealing and user-friendly website interfaces.</p>
 </div>
 </div>
 <!-- Frontend Development Card -->
@@ -68,7 +68,7 @@
 <span class="material-symbols-outlined text-[#3B82F6]">code</span>
 <div class="flex flex-col gap-1">
 <h2 class="text-white text-base font-bold leading-tight">Frontend Development</h2>
-<p class="text-white/80 text-sm font-normal leading-normal">Building responsive and interactive user interfaces with modern frameworks.</p>
+<p class="text-white/80 text-sm font-normal leading-normal">I Build responsive and interactive user interfaces with modern frameworks.</p>
 </div>
 </div>
 <!-- Backend Development Card -->
@@ -76,7 +76,7 @@
 <span class="material-symbols-outlined text-[#3B82F6]">storage</span>
 <div class="flex flex-col gap-1">
 <h2 class="text-white text-base font-bold leading-tight">Backend Development</h2>
-<p class="text-white/80 text-sm font-normal leading-normal">Developing robust server-side logic, APIs, and database management.</p>
+<p class="text-white/80 text-sm font-normal leading-normal">I develop robust server-side logic, APIs, and database management.</p>
 </div>
 </div>
 <!-- UI Design Card -->
@@ -84,9 +84,50 @@
 <span class="material-symbols-outlined text-[#3B82F6]">palette</span>
 <div class="flex flex-col gap-1">
 <h2 class="text-white text-base font-bold leading-tight">UI Design</h2>
-<p class="text-white/80 text-sm font-normal leading-normal">Crafting intuitive and beautiful user interfaces with a focus on user experience.</p>
+<p class="text-white/80 text-sm font-normal leading-normal">I craft intuitive and beautiful user interfaces with a focus on user experience.</p>
 </div>
 </div>
+<!-- UI Design Card -->
+<div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
+<span class="material-symbols-outlined text-[#3B82F6]">book</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-base font-bold leading-tight">Web Maintenance & Optimization</h2>
+<p class="text-white/80 text-sm font-normal leading-normal">I keep websites secure, updated, and running at peak performance. This includes bug fixes, speed optimization, and periodic improvements.</p>
+</div>
+</div>
+<!-- UI Design Card -->
+<div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
+<span class="material-symbols-outlined text-[#3B82F6]">lock</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-base font-bold leading-tight"> Authentication & Security</h2>
+<p class="text-white/80 text-sm font-normal leading-normal">I implement secure login systems, role management, and data protection best practices. My focus is safeguarding applications from vulnerabilities and unauthorized access.</p>
+</div>
+</div>
+<!-- UI Design Card -->
+<div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
+<span class="material-symbols-outlined text-[#3B82F6]">Cognition_2</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-base font-bold leading-tight">Problem-Solving & Logical Thinking</h2>
+<p class="text-white/80 text-sm font-normal leading-normal">I break down complex technical problems into simple, actionable steps to create effective solutions. My analytical approach ensures I deliver reliable results even under pressure.</p>
+</div>
+</div>
+<!-- UI Design Card -->
+<div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
+<span class="material-symbols-outlined text-[#3B82F6]">Database</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-base font-bold leading-tight">Database Design & Management</h2>
+<p class="text-white/80 text-sm font-normal leading-normal">I build structured, efficient databases that support fast data retrieval and long-term growth.</p>
+</div>
+</div>
+<!-- UI Design Card -->
+<div class="flex flex-1 gap-4 rounded-xl bg-[#0A1A2F] p-4 flex-col shadow-lg">
+<span class="material-symbols-outlined text-[#3B82F6]">Shopping_Cart</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-base font-bold leading-tight">E-commerce Development</h2>
+<p class="text-white/80 text-sm font-normal leading-normal">I provide ongoing updates, monitoring, and technical support to keep websites running smoothly.</p>
+</div>
+</div>
+
 </div>
 <div class="h-5 bg-[#F8FAFC]"></div>
 </main>
